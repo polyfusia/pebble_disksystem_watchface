@@ -1,0 +1,151 @@
+{
+  "uuid": "e47301e5-6a7b-4048-a38e-5699b3144c48",
+  "shortName": "disksystem",
+  "longName": "disksystem",
+  "companyName": "polyfusia",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "font",
+        "name": "FONT_EMULOGIC_18",
+        "file": "fonts/emulogic.ttf",
+        "compatibility":"2.7"
+      },
+      {
+        "type": "font",
+        "name": "FONT_EMULOGIC_8",
+        "file": "fonts/atari_chunky.ttf",
+        "compatibility":"2.7"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND_OFF",
+        "file": "images/field_0.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND_BLUE",
+        "file": "images/field_1.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND_ORANGE",
+        "file": "images/field_2.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND_GREEN",
+        "file": "images/field_3.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_BACKGROUND_RED",
+        "file": "images/field_4.png"
+      },
+      {
+        "type": "png",
+        "name": "MARIO_RIGHT_0",
+        "file": "images/mario_right_0.png"
+      },
+      {
+        "type": "png",
+        "name": "MARIO_RIGHT_1",
+        "file": "images/mario_right_1.png"
+      },
+      {
+        "type": "png",
+        "name": "MARIO_RIGHT_2",
+        "file": "images/mario_right_2.png"
+      },
+      {
+        "type": "png",
+        "name": "MARIO_RIGHT_3",
+        "file": "images/mario_right_3.png"
+      },
+      {
+        "type": "png",
+        "name": "MARIO_LEFT_0",
+        "file": "images/mario_LEFT_0.png"
+      },
+      {
+        "type": "png",
+        "name": "MARIO_LEFT_1",
+        "file": "images/mario_LEFT_1.png"
+      },
+      {
+        "type": "png",
+        "name": "MARIO_LEFT_2",
+        "file": "images/mario_LEFT_2.png"
+      },
+      {
+        "type": "png",
+        "name": "MARIO_LEFT_3",
+        "file": "images/mario_LEFT_3.png"
+      },
+      {
+        "type": "png",
+        "name": "LUIGE_RIGHT_0",
+        "file": "images/luige_right_0.png"
+      },
+      {
+        "type": "png",
+        "name": "LUIGE_RIGHT_1",
+        "file": "images/luige_right_1.png"
+      },
+      {
+        "type": "png",
+        "name": "LUIGE_RIGHT_2",
+        "file": "images/luige_right_2.png"
+      },
+      {
+        "type": "png",
+        "name": "LUIGE_RIGHT_3",
+        "file": "images/luige_right_3.png"
+      },
+      {
+        "type": "png",
+        "name": "LUIGE_LEFT_0",
+        "file": "images/luige_left_0.png"
+      },
+      {
+        "type": "png",
+        "name": "LUIGE_LEFT_1",
+        "file": "images/luige_left_1.png"
+      },
+      {
+        "type": "png",
+        "name": "LUIGE_LEFT_2",
+        "file": "images/luige_left_2.png"
+      },
+      {
+        "type": "png",
+        "name": "LUIGE_LEFT_3",
+        "file": "images/luige_left_3.png"
+      },
+      {
+        "type": "png",
+        "name": "SWITCH_0",
+        "file": "images/switch_0.png"
+      },
+      {
+        "type": "png",
+        "name": "SWITCH_1",
+        "file": "images/switch_1.png"
+      },
+      {
+        "type": "png",
+        "name": "SWITCH_2",
+        "file": "images/switch_2.png"
+      }
+    ]
+  }
+}
