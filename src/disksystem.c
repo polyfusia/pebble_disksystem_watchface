@@ -33,8 +33,8 @@ static TextLayer *s_time_layer;
 static TextLayer *s_time_back_layer;
 static TextLayer *s_date_layer;
 static TextLayer *s_date_back_layer;
-static GFont *s_time_font;
-static GFont *s_date_font;
+static GFont s_time_font;
+static GFont s_date_font;
 
 static Layer *s_mario_move_layer;
 static Layer *s_luige_move_layer;
@@ -935,6 +935,9 @@ static void main_window_load(Window *window) {
     // 背景のスイッチなど。一枚絵。
     s_fixture_layer = layer_create(bounds);
     layer_add_child(window_layer, s_fixture_layer);
+
+    // シードがおかしいっぽいので手で設定する
+    srand(time(NULL));
 
     // 初期の色をランダムで決定。1から4の値が取れればOK。
     fixture.current_color = (rand() % 4) + 1;
